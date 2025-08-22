@@ -92,7 +92,7 @@ body {
     border: 3px solid var(--accent-blue);
 }
 
-.skills-card {
+.skillsstyle {
     background: white;
     border-radius: 15px;
     padding: 30px 40px;
@@ -102,7 +102,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skills-card:hover {
+.skillsstyle:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.35);
 }
@@ -251,7 +251,7 @@ section {
 
 
 
-.blog-section {
+.blogarticle{
     background-color: #0a0f1f; 
     min-height: 50vh;
     display : flex;
@@ -262,7 +262,7 @@ section {
 }
 
 
-.blog-card {
+.blogcard {
     background-color: #c9e1f3;
     padding: 30px;
     border-radius: 15px;
@@ -274,20 +274,20 @@ section {
 }
 
 
-.blog-card:hover {
+.blogcard:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.3);
 }
 
 
-.blog-card h2 {
+.blogcard h2 {
     color: #1e40af;
     font-size: 1.8rem;
     margin-bottom: 15px;
     position: relative;
 }
 
-.blog-card h2::after {
+.blogcard h2::after {
     content: "";
     position: absolute;
     left: 0;
@@ -299,13 +299,13 @@ section {
 }
 
 
-.blog-card-hidden {
+.blogcard-hidden {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.6s ease-out;
 }
 
-.blog-card-visible {
+.blogcard-visible {
     opacity: 1;
     transform: translateY(0);
 }
@@ -316,7 +316,7 @@ section {
 }
 
 
-.blog-card p {
+.blogcard p {
     color: #1a1a1a;
     font-size: 1rem;
     line-height: 1.6;
@@ -384,7 +384,7 @@ footer {
 .contact{
     padding: 1rem;
 }
-.contact-section {
+.contactsection {
     background-color: #0a0f1f;
     min-height: 40vh;
     display : flex;
@@ -394,7 +394,7 @@ footer {
 
 }
 
-.contact-card {
+.contactcard {
     background-color: #e9f0f5; 
     padding: 20px;
     border-radius: 15px;
@@ -404,7 +404,7 @@ footer {
 }
 
 
-.contact-card h2 {
+.contactcard h2 {
     color: #1a1a1a;
     font-size: 1.8rem;
     margin-bottom: 5px;
@@ -412,7 +412,7 @@ footer {
     padding-left: 12px;
 }
 
-.contact-card p {
+.contactcard p {
     color: #1a1a1a;
     font-size: 1rem;
 }
@@ -448,14 +448,14 @@ footer {
         flex-direction: column;
     }
 
-     .blog-card {
+     .blogcard {
         margin-top: 50px;
         padding: 20px;
         width: 80%;
         margin-bottom: 100px;
     }
 
-    .contact-card{
+    .contactcard{
         width: 80%;
     }
 
@@ -465,9 +465,9 @@ footer {
         object-fit: cover;   
         border-radius: 10px;
         border: 1px solid black; 
-        margin-bottom: 15px;   
-}
+        margin-bottom: 15px;  
 
+}
 
 
 
